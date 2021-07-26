@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import ImageOne from '../../images/svg-1.svg';
+//import ImageOne from '../../images/svg-1.svg';
 import {
     InfoContainer,
     InfoWrapper,
@@ -51,8 +51,8 @@ return(
                   <Button to = "home"
                    smooth={true}
                    duration={500}
-                   spy="True"
-                   exact={true}
+                   spy={true}
+                   exact="true"
                    offset={-80}
                    primary= {primary ? 1 : 0}
                    dark={dark ? 1 : 0}
@@ -64,7 +64,7 @@ return(
             </Column1>
             <Column2>
               <ImgWrap>
-              <Img  src={ImageOne} alt={alt}/>
+              <Img  src={img} alt={alt}/>
             </ImgWrap>
             </Column2>
         </InfoRow>

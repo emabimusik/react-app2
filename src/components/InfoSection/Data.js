@@ -32,4 +32,21 @@ export const homeObjOne = {
     darkText:true
   };
 
+  export const homeObjThree = {
+    id:'contact',
+    lightBg:true,
+    lightText:false,
+    lightTextDesc:false,
+    topLine:'Get in touch',
+    headLine:'get in touch',
+    description:'Our  welcome team will get in touch with you as soon as possible for futher information.',
+    buttonLabel:'Try for free 7/d',
+    imgStart:true,
+    img:require('../../images/svg-4.svg').default,
+    alt:'Car',
+    dark:true,
+    primary:true,
+    darkText:true
+  };
+
   

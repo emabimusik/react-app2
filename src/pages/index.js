@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar';
 import HeroContainer from '../components/HeroSection';
 
 import InfoSection from '../components/InfoSection';
-import { homeObjOne, homeObjTwo} from '../components/InfoSection/Data';
+import { homeObjOne, homeObjTwo,homeObjThree} from '../components/InfoSection/Data';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
 
@@ -16,12 +16,13 @@ const Home = () => {
 
     }
     return ( <>
-        <Sidebar isOpen = { isOpen }toggle = { toggle }/> 
-        <NavBar toggle = { toggle }/> 
+        <Sidebar isOpen = { isOpen } toggle = { toggle }/> 
+        <NavBar  toggle = { toggle }/> 
         <HeroContainer/>
         <InfoSection {...homeObjOne} />
         <Services/>
         <InfoSection {...homeObjTwo} />
+        <InfoSection {...homeObjThree} />
          <Footer/>
           </>
     )

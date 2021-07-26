@@ -1,9 +1,13 @@
-export const homeObjOne = {
+//import {useTranslation} from 'react-i18next';
+//const {t,i18n} = useTranslation();
+
+export const  homeObjOne = {
+    
     id:'about',
     lightBg:false,
     lightText:false,
     lightTextDesc:true,
-    topLine:'Premium Bank',
+    topLine:'Premium Bank ',
     headLine:'Unlimited Transactions with zero fees',
     description:'Get access to our exclusive app that allows you to send unlimited  transactions without getting charged any fees.',
     buttonLabel:'Get started',
@@ -20,7 +24,7 @@ export const homeObjOne = {
     lightBg:true,
     lightText:false,
     lightTextDesc:false,
-    topLine:'Premium Bank',
+    topLine:'Premium Bank ',
     headLine:'Unlimited Transactions with zero fees',
     description:'Get access to our exclusive app that allows you to send unlimited  transactions without getting charged any fees.',
     buttonLabel:'Try for free 7/d',

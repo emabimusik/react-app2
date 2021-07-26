@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 //import ImageOne from '../../images/svg-1.svg';
+import { Trans,useTranslation } from 'react-i18next';
 import {
     InfoContainer,
     InfoWrapper,
@@ -33,6 +34,8 @@ const InfoSection = ({
     dark2
 
 })=>{
+   const { t } = useTranslation();
+
 return(
     <>
 <InfoContainer lightBg={lightBg} id={id}>
@@ -51,8 +54,8 @@ return(
                   <Button to = "home"
                    smooth={true}
                    duration={500}
-                   spy={true}
-                   exact="true"
+                   spy="True"
+                   exact={true}
                    offset={-80}
                    primary= {primary ? 1 : 0}
                    dark={dark ? 1 : 0}

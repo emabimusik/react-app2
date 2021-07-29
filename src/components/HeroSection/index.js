@@ -15,7 +15,7 @@ import {
 } from './HeroElement';
 
 const HeroSection = () => {
-    const {t,i18n} = useTranslation();
+    const {t} = useTranslation();
     const [hover, setHover] = useState(false);
     const onHover = () => {
         setHover(!hover);

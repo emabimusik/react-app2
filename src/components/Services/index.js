@@ -14,7 +14,7 @@ import {
 } from './ServicesElements';
 
 const Services = () => {
-    const {t,i18n} = useTranslation();
+    const {t} = useTranslation();
  return(
     <ServicesContainer id='services'>
         <ServicesH1> Our Services</ServicesH1>

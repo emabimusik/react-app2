@@ -49,6 +49,7 @@ export  const FormInput = styled.input`
  border:none;
  border-radius:4px;
  width:450px;
+ text-align:center;
  
 `
 
@@ -62,6 +63,7 @@ export const FormButton = styled.div`
 background:#01bf71;
 padding:14px 10px;
 border:none;
+margin-top:20px;
 text-align:center;
 color:#fff;
 font-size:16px;
@@ -76,6 +78,11 @@ export const  FormH1 = styled.h1`
 color:#fff;
 text-align:center;
 padding: auto;
+`;
+export const FormInputTxtarea = styled.textarea`
+ height:150px;
+ border:none;
+ border-radius:4px;
+ text-align:center
 `
-
 

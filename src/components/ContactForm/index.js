@@ -6,7 +6,8 @@ import {Container,
         Form,
         FormLabel,
         FormH1,
-        FormButton
+        FormButton,
+        FormInputTxtarea
 
 } from './FormElement';
 const ContactForm = () =>{
@@ -26,7 +27,7 @@ const ContactForm = () =>{
                 <FormLabel htmlFor ='for'>Subject</FormLabel>
                 <FormInput type ="text" placeholder="Enter your subject"></FormInput>
                 <FormLabel htmlFor ='for'>message</FormLabel>
-                <FormInput type ="text-area" placeholder="Enter your message"></FormInput>
+                <FormInputTxtarea type ="textarea " height="200px"  placeholder="Enter your message"></FormInputTxtarea>
                 <FormButton type ="submit">Submit</FormButton>
 
 

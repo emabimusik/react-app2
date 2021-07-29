@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElement';
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/video.mp4';
+import {useTranslation} from 'react-i18next';
 import {
     HeroContainer,
     VideoBg,
@@ -14,25 +15,24 @@ import {
 } from './HeroElement';
 
 const HeroSection = () => {
-
+    const {t,i18n} = useTranslation();
     const [hover, setHover] = useState(false);
     const onHover = () => {
         setHover(!hover);
     };
+  
     return ( <HeroContainer>
         <HeroBg >
         <VideoBg autoPlay loop muted src = { Video }type = 'video/mp4' >
         </VideoBg> </HeroBg> <HeroContent >
-        <HeroH1> Virtual Banking Made Easy. </HeroH1> <HeroP>
-        Sign up
-        for a new account today and recieve $300 in
-        credit towards your next payment. </HeroP> <HeroBtnWrapper>
+        <HeroH1>{t('heroH1')}. </HeroH1> <HeroP>
+        {t('heroP')} </HeroP> <HeroBtnWrapper>
         <Button to = 'signup'
         onMouseEnter = { onHover }
         onMouseLeave = { onHover }
         primary = 'true'
         dark = 'true' >
-        Get started { hover ? < ArrowForward / > : < ArrowRight / > } </Button > </HeroBtnWrapper> </HeroContent>
+        {t('heroB')} { hover ? < ArrowForward / > : < ArrowRight / > } </Button > </HeroBtnWrapper> </HeroContent>
 
         </HeroContainer>
     )

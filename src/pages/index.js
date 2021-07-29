@@ -16,12 +16,14 @@ const Home = () => {
         setIsOpen(!isOpen)
 
     }; 
+
+
     const {t,i18n} = useTranslation();
     return ( <>
         <Sidebar isOpen = { isOpen } toggle = { toggle }/> 
         <NavBar  toggle = { toggle }/> 
         <HeroContainer/>
-        <InfoSection {...homeObjOne} />
+        <InfoSection  {...homeObjOne } />
         <Services/>
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />

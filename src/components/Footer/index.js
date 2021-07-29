@@ -3,7 +3,8 @@ import {FooterContainer,FooterWrap,FooterLinkContainer,
     FooterLinksWrapper,
     FooterLinksItems,
     FooterTitle,
-    FooterLink
+    FooterLink,
+    WebsiteRights
     } from'./FooterElements';
     
     
@@ -61,6 +62,11 @@ const Footer =( ) =>{
                 </FooterLinksItems>
             </FooterLinksWrapper>
         </FooterLinkContainer>
+        <WebsiteRights>
+                 Emanuel © {new Date().getFullYear()}
+                 All rights reserved.
+        </WebsiteRights>
+
     </FooterWrap>
 </FooterContainer>
   )

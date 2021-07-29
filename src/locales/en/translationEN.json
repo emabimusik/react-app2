@@ -5,9 +5,11 @@
     "title2-service":"We  help reduce your fees and increase overall revenue.",
     "header3-service":"Premium Benifits",
     "title3-service":"Unlock our special membership card that returns 5% cash back.",
+    
+    "heroH1":"Virtual Banking Made Easy",
+    "heroP":"Sign up for a new account today and recieve $300 in credit towards your next payment",
+    "heroB":"Get started",
     "homeObjOne":{
-      "topline":"Premium Bank englishs"
-
+        "topLine": "test hello bank"
     }
-
 }

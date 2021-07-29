@@ -8,6 +8,7 @@ import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjTwo,homeObjThree} from '../components/InfoSection/Data';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 //import {useTranslation} from 'react-i18next';
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
         <Services/>
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />
+        <ContactForm />
          <Footer/>
           </>
     )

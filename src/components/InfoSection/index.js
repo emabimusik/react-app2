@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 //import ImageOne from '../../images/svg-1.svg';
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 import {
     InfoContainer,
     InfoWrapper,
